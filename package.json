@@ -31,6 +31,7 @@
   ],
   "author": "Alexis Michaltsis • Destacks.com",
   "license": "MIT",
+  "README.md": "README.md",
   "bugs": {
     "url": "https://github.com/destacks/twcn/issues"
   },
