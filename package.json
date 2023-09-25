@@ -1,0 +1,54 @@
+{
+  "name": "@destacks/twcn",
+  "version": "0.1.0",
+  "description": "Hassle-free utility function for joining & merge-sorting Tailwind CSS class strings, lists, inline conditionals, and deeply nested objects.",
+  "type": "module",
+  "main": "./dist/cjs/twcn.js",
+  "module": "./dist/esm/twcn.js",
+  "browser": "./dist/umd/twcn.js",
+  "types": "./dist/twcn.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "test": "jest",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destacks/twcn.git"
+  },
+  "keywords": [
+    "tailwind",
+    "classnames",
+    "jsx",
+    "tsx",
+    "react",
+    "utility",
+    "merge",
+    "clsx",
+    "tailwind-merge",
+    "styles",
+    "css"
+  ],
+  "author": "Alexis Michaltsis • Destacks.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/destacks/twcn/issues"
+  },
+  "homepage": "https://github.com/destacks/twcn#readme",
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.5",
+    "jest": "^29.7.0",
+    "rollup": "^3.29.3",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
