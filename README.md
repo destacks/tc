@@ -66,5 +66,5 @@ License file URL: https://github.com/destacks/twcn/blob/main/LICENSE
 
 ## Links
 
-For more information on `twcn`, visit: https://github.com/destacks/twcn
-For more information on the `twcn` NPM package, visit: https://www.npmjs.com/package/@destacks/twcn
+- `twcn`'s GitHub repo, visit: https://github.com/destacks/twcn
+- `twcn`'s NPM package page, visit: https://www.npmjs.com/package/@destacks/twcn
