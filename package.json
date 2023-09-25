@@ -1,6 +1,6 @@
 {
   "name": "@destacks/twcn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hassle-free utility function for joining & merge-sorting Tailwind CSS class strings, lists, inline conditionals, and deeply nested objects.",
   "type": "module",
   "main": "./dist/cjs/twcn.js",
@@ -31,7 +31,9 @@
   ],
   "author": "Alexis Michaltsis • Destacks.com",
   "license": "MIT",
-  "README.md": "README.md",
+  "files": [
+    "dist/"
+  ],
   "bugs": {
     "url": "https://github.com/destacks/twcn/issues"
   },
