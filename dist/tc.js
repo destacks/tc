@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const clsx_1 = require("clsx");
-const tailwind_merge_1 = require("tailwind-merge");
+import { clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
 /**
  * `tc` merges & sorts Tailwind CSS class names.
  *
@@ -14,5 +12,5 @@ const tailwind_merge_1 = require("tailwind-merge");
  * ```
  * More information at: https://github.com/destacks/tc
  */
-const tc = (...classValues) => (0, tailwind_merge_1.twMerge)((0, clsx_1.clsx)(...classValues));
-exports.default = tc;
+const tc = (...classValues) => twMerge(clsx(...classValues));
+export default tc;
