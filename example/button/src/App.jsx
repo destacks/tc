@@ -8,7 +8,7 @@ function App() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">
-          <span className="text-blue-600">tc</span> Button Example with React +
+          <code className="text-blue-600">tc</code> Button Example with React +
           Vite
         </h1>
         <div className="space-y-4">
