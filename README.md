@@ -2,7 +2,7 @@
 
 ## Introduction
 
-`tc` is designed to merge & sorte Tailwind CSS class names in both JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. It simple combines the use of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). The name `tc` is an abbreviation for: *T*ailwind with *C*lass-name handling.
+`tc` is designed to merge & sort Tailwind CSS class names in JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. The name `tc` is an abbreviation for *T*ailwind with *C*lass-name handling.
 
 Key features of `tc` include:
 
@@ -10,17 +10,19 @@ Key features of `tc` include:
 - Trims extra spaces in strings.
 - Sorts Tailwind CSS classes without causing style conflicts.
 
+`tc` simply combines the use of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). The name `tc` is an abbreviation for *T*ailwind with *C*lass-name handling.
+
 ## Installation
 
 ```
-npm install @destacks/tc
+npm install @destacks/tc clsx tailwind-merge
 ```
 
 ## Usage
 
 Example:
 
-- Example was made overly complicated to show the array and nested object possbilities. For more information on this, go to the [`clsx`](https://github.com/lukeed/clsx) project page.
+- Please note: the example is more complicated than normal, showing the possibilities of using arrays and nested objects. Please go to the [`clsx`](https://github.com/lukeed/clsx) project page for more information on possible control structures.
 
 ```jsx
 import tc from "@destacks/tc";
@@ -42,7 +44,7 @@ export default Button;
 
 ## Example Project
 
-There is an example Vite + React project located in `example/button`. For more information, refer to the [README](example/button/README.md) inside the `example/button` directory.
+An example project using Vite + React is located in `example/button`. For more information, refer to the [README](example/button/README.md) inside the `example/button` directory.
 
 ## Auto-Complete in VS Code
 
@@ -60,7 +62,7 @@ There is an example Vite + React project located in `example/button`. For more i
 
 ## Credits
 
-The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). `tc` is just a super-thin wrapper around them. They are doing more than 99.9% of the work and deserve all the credit.
+The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). `tc` is just a super-thin wrapper around them. They do more than 99.9% of the work and deserve all the credit.
 
 ## License
 
