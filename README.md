@@ -1,16 +1,14 @@
-# `tc`
+# TC: Hassle-Free Merging & Sorting of Tailwind Classes
 
 ## Introduction
 
-`tc` is designed to merge & sort Tailwind CSS class names in JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. The name `tc` is an abbreviation for *T*ailwind with *C*lass-name handling.
+TC is designed to merge & sort Tailwind CSS class names in JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. TC combines the use of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge).
 
-Key features of `tc` include:
+Key features of TC include:
 
 - Efficiently merges strings, conditionals, arrays, & nested objects.
 - Trims extra spaces in strings.
 - Sorts Tailwind CSS classes without causing style conflicts.
-
-`tc` simply combines the use of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). The name `tc` is an abbreviation for *T*ailwind with *C*lass-name handling.
 
 ## Installation
 
@@ -62,7 +60,7 @@ An example project using Vite + React is located in `example/button`. For more i
 
 ## Credits
 
-The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). `tc` is just a super-thin wrapper around them. They do more than 99.9% of the work and deserve all the credit.
+The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). TC is just a super-thin wrapper around them. They do more than 99.9% of the work and deserve all the credit.
 
 ## License
 
@@ -74,5 +72,5 @@ License file URL: https://github.com/destacks/tc/blob/main/LICENSE
 
 ## Links
 
-- `tc`'s GitHub repo, visit: https://github.com/destacks/tc
-- `tc`'s NPM package page, visit: https://www.npmjs.com/package/@destacks/tc
+- TC's GitHub repo, visit: https://github.com/destacks/tc
+- TC's NPM package page, visit: https://www.npmjs.com/package/@destacks/tc

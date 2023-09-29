@@ -1,7 +1,7 @@
 {
   "name": "@destacks/tc",
   "version": "0.3.0",
-  "description": "Utility for merging & sorting Tailwind classes.",
+  "description": "Hassle-Free Merging & Sorting of Tailwind Classes",
   "type": "module",
   "main": "./dist/tc.js",
   "types": "./dist/tc.d.ts",

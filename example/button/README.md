@@ -1,6 +1,6 @@
-# `tc` Button Example with React + Vite
+# TC Button Example with React + Vite
 
-This example showcases how to use the `tc` package to construct and merge Tailwind CSS class names in a React component with the Vite.js build tool.
+This example showcases how to use the TC package to construct and merge Tailwind CSS class names in a React component with the Vite.js build tool.
 
 ## Getting Started
 
@@ -33,12 +33,12 @@ This example showcases how to use the `tc` package to construct and merge Tailwi
 
 ## Exploring the Button Component
 
-Open the `src/Buttons.jsx` file to view the Button component. This component uses the `tc` function to merge various Tailwind CSS classes based on given conditions, showcasing the utility of `tc` in a React context.
+Open the `src/Button.jsx` file to view the Button component. This component uses the TC function to merge various Tailwind CSS classes based on given conditions, showcasing the utility of TC in a React context.
 
 ## VS Code Integration
 
-For a better development experience with Tailwind CSS in this example, the integration with VS Code's Tailwind CSS IntelliSense is set up. If you open this project in VS Code, you should be able to get autocompletion for Tailwind CSS classes within the `tc` function, thanks to the regex configuration in `.vscode/settings.json`.
+For a better development experience with Tailwind CSS in this example, the integration with VS Code's Tailwind CSS IntelliSense is set up. If you open this project in VS Code, you should be able to get autocompletion for Tailwind CSS classes within TC's `tc` function, thanks to the regex configuration in `.vscode/settings.json`.
 
 ## Further Information
 
-For more details on `tc`, refer to the main project's [README](../README.md) or visit the official repository [here](https://github.com/destacks/tc).
+For more details on TC, refer to the main project's [README](../README.md) or visit the official repository [here](https://github.com/destacks/tc).
