@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TC is designed to merge & sort Tailwind CSS class names in JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. TC combines the use of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge).
+TC is designed to merge & sort Tailwind CSS class names in JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. TC combines the power of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge).
 
 Key features of TC include:
 
@@ -12,15 +12,19 @@ Key features of TC include:
 
 ## Installation
 
-```
+`@destacks/tc` relies on `clsx` and `tailwind-merge` as its peer dependencies. You need to install all three for it to work properly:
+
+```bash
 npm install @destacks/tc clsx tailwind-merge
 ```
+
+> 🔔 **Note**: It's essential to install both `clsx` and `tailwind-merge` along with `@destacks/tc` to avoid any potential issues.
 
 ## Usage
 
 Example:
 
-- Please note: the example is more complicated than normal, showing the possibilities of using arrays and nested objects. Please go to the [`clsx`](https://github.com/lukeed/clsx) project page for more information on possible control structures.
+> Please note: the following example, though more complicated than a typical use-case, showcases the possibilities of using arrays and nested objects. For a deeper understanding of possible control structures, visit the [`clsx`](https://github.com/lukeed/clsx) project page.
 
 ```jsx
 import tc from "@destacks/tc";
@@ -42,13 +46,13 @@ export default Button;
 
 ## Example Project
 
-An example project using Vite + React is located in `example/button`. For more information, refer to the [README](example/button/README.md) inside the `example/button` directory.
+An example project using Vite + React is located in `example/button`. For more details, please refer to the [README](example/button/README.md) inside the `example/button` directory.
 
 ## Auto-Complete in VS Code
 
 1. [Install the "Tailwind CSS IntelliSense" extension.](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-2. Add to your [VS Code `settings.json`](https://code.visualstudio.com/docs/getstarted/settings):
+2. To enjoy autocompletion, add the following to your [VS Code `settings.json`](https://code.visualstudio.com/docs/getstarted/settings):
 
 ```json
 {
@@ -60,7 +64,7 @@ An example project using Vite + React is located in `example/button`. For more i
 
 ## Credits
 
-The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). TC is just a super-thin wrapper around them. They do more than 99.9% of the work and deserve all the credit.
+The biggest shout-out goes to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). TC acts as a super-thin wrapper around these libraries. They do the heavy lifting, accounting for more than 99.9% of the work, and deserve all the credit.
 
 ## License
 
@@ -68,9 +72,9 @@ MIT License.
 
 Copyright (c) 2023 [Alexis Michaltsis • Destacks.com](https://destacks.com/)
 
-License file URL: https://github.com/destacks/tc/blob/main/LICENSE
+For the full license, visit: https://github.com/destacks/tc/blob/main/LICENSE
 
 ## Links
 
-- TC's GitHub repo, visit: https://github.com/destacks/tc
-- TC's NPM package page, visit: https://www.npmjs.com/package/@destacks/tc
+- For TC's GitHub repo, visit: https://github.com/destacks/tc
+- To see TC's NPM package page, visit: https://www.npmjs.com/package/@destacks/tc
