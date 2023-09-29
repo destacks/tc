@@ -38,6 +38,10 @@ const Button = ({ isAlert, isActive }) => (
 export default Button;
 ```
 
+## Example Project
+
+There is an example Vite + React project located in `example/button`. For more information, refer to the [README](example/button/README.md) inside the `example/button` directory.
+
 ## Auto-Complete in VS Code
 
 1. [Install the "Tailwind CSS IntelliSense" extension.](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
