@@ -3,12 +3,10 @@
   "version": "0.2.0",
   "description": "Hassle-free utility function for joining & merge-sorting Tailwind CSS class strings, lists, inline conditionals, and deeply nested objects.",
   "type": "module",
-  "main": "./dist/cjs/tc.js",
-  "module": "./dist/esm/tc.js",
-  "browser": "./dist/umd/tc.js",
+  "main": "./dist/tc.js",
   "types": "./dist/tc.d.ts",
   "scripts": {
-    "build": "rollup -c rollup.config.mjs",
+    "build": "tsc",
     "test": "jest",
     "pretest": "npm run build"
   },
