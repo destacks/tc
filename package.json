@@ -32,8 +32,7 @@
   "author": "Alexis Michaltsis • Destacks.com",
   "license": "MIT",
   "files": [
-    "dist/",
-    "example/"
+    "dist/"
   ],
   "bugs": {
     "url": "https://github.com/destacks/tc/issues"
