@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@destacks/tc": "^0.4.0",
+    "@destacks/tc": "^0.4.1",
     "autoprefixer": "^10.4.16",
     "clsx": "^2.0.0",
     "postcss": "^8.4.30",
