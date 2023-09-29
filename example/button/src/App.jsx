@@ -8,8 +8,8 @@ function App() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">
-          <span className="text-blue-600">twcn</span> Button Example with React
-          + Vite
+          <span className="text-blue-600">tc</span> Button Example with React +
+          Vite
         </h1>
         <div className="space-y-4">
           <Button
@@ -31,7 +31,7 @@ function App() {
           <p className="border p-4 rounded bg-gray-100">
             Edit{" "}
             <code className="bg-gray-200 rounded p-1">src/Buttons.jsx</code>
-            to test <span className="text-blue-600 font-bold">twcn</span>
+            to test <span className="text-blue-600 font-bold">tc</span>
           </p>
         </div>
       </div>

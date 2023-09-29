@@ -1,10 +1,10 @@
-# `twcn`
+# `tc`
 
 ## Introduction
 
-`twcn` is designed to construct and merge Tailwind CSS class names in both JavaScript and TypeScript. It's ideal for usage within JSX and TSX components.
+`tc` is designed to merge & sorte Tailwind CSS class names in both JavaScript and TypeScript. It's ideal for usage within JSX and TSX components. It simple combines the use of [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). The name `tc` is an abbreviation for: *T*ailwind with *C*lass-name handling.
 
-Key features of `twcn` include:
+Key features of `tc` include:
 
 - Efficiently merges strings, conditionals, arrays, & nested objects.
 - Trims extra spaces in strings.
@@ -13,22 +13,24 @@ Key features of `twcn` include:
 ## Installation
 
 ```
-npm install @destacks/twcn
+npm install @destacks/tc
 ```
 
 ## Usage
 
 Example:
 
+- Example was made overly complicated to show the array and nested object possbilities. For more information on this, go to the [`clsx`](https://github.com/lukeed/clsx) project page.
+
 ```jsx
-import cn from "@destacks/twcn";
+import tc from "@destacks/tc";
 
 const Button = ({ isAlert, isActive }) => (
   <button
-    className={cn(
+    className={tc(
       "bg-blue-600 text-white hover:bg-blue-700",
-      isAlert ? "bg-red-300 text-red-900 hover:bg-red-400" : "",
-      isActive ? "cursor-pointer" : "cursor-not-allowed"
+      isAlert && ["bg-red-300", "text-red-900", "hover:bg-red-400"],
+      isActive ? { "cursor-pointer": true } : { "cursor-not-allowed": true }
     )}
   >
     Click Me
@@ -51,14 +53,14 @@ There is an example Vite + React project located in `example/button`. For more i
 ```json
 {
   "tailwindCSS.experimental.classRegex": [
-    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ["tc\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ]
 }
 ```
 
 ## Credits
 
-The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). `twcn` is just a super-thin wrapper around them. They are doing more than 99.9% of the work and deserve all the credit.
+The biggest shout-out to [`clsx`](https://github.com/lukeed/clsx) and [`tailwind-merge`](https://github.com/dcastil/tailwind-merge). `tc` is just a super-thin wrapper around them. They are doing more than 99.9% of the work and deserve all the credit.
 
 ## License
 
@@ -66,9 +68,9 @@ MIT License.
 
 Copyright (c) 2023 [Alexis Michaltsis • Destacks.com](https://destacks.com/)
 
-License file URL: https://github.com/destacks/twcn/blob/main/LICENSE
+License file URL: https://github.com/destacks/tc/blob/main/LICENSE
 
 ## Links
 
-- `twcn`'s GitHub repo, visit: https://github.com/destacks/twcn
-- `twcn`'s NPM package page, visit: https://www.npmjs.com/package/@destacks/twcn
+- `tc`'s GitHub repo, visit: https://github.com/destacks/tc
+- `tc`'s NPM package page, visit: https://www.npmjs.com/package/@destacks/tc

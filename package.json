@@ -1,12 +1,12 @@
 {
-  "name": "@destacks/twcn",
-  "version": "0.1.1",
+  "name": "@destacks/tc",
+  "version": "0.2.0",
   "description": "Hassle-free utility function for joining & merge-sorting Tailwind CSS class strings, lists, inline conditionals, and deeply nested objects.",
   "type": "module",
-  "main": "./dist/cjs/twcn.js",
-  "module": "./dist/esm/twcn.js",
-  "browser": "./dist/umd/twcn.js",
-  "types": "./dist/twcn.d.ts",
+  "main": "./dist/cjs/tc.js",
+  "module": "./dist/esm/tc.js",
+  "browser": "./dist/umd/tc.js",
+  "types": "./dist/tc.d.ts",
   "scripts": {
     "build": "rollup -c rollup.config.mjs",
     "test": "jest",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/destacks/twcn.git"
+    "url": "git+https://github.com/destacks/tc.git"
   },
   "keywords": [
     "tailwind",
@@ -36,9 +36,9 @@
     "example/"
   ],
   "bugs": {
-    "url": "https://github.com/destacks/twcn/issues"
+    "url": "https://github.com/destacks/tc/issues"
   },
-  "homepage": "https://github.com/destacks/twcn#readme",
+  "homepage": "https://github.com/destacks/tc#readme",
   "dependencies": {
     "clsx": "^2.0.0",
     "tailwind-merge": "^1.14.0"
