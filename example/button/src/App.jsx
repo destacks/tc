@@ -29,8 +29,7 @@ function App() {
             Reset count
           </Button>
           <p className="border p-4 rounded bg-gray-100">
-            Edit{" "}
-            <code className="bg-gray-200 rounded p-1">src/Buttons.jsx</code>
+            Edit <code className="bg-gray-200 rounded p-1">src/Button.jsx</code>
             to test <span className="text-blue-600 font-bold">tc</span>
           </p>
         </div>
