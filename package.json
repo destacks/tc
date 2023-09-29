@@ -1,7 +1,7 @@
 {
   "name": "@destacks/tc",
   "version": "0.2.0",
-  "description": "Hassle-free utility function for joining & merge-sorting Tailwind CSS class strings, lists, inline conditionals, and deeply nested objects.",
+  "description": "Utility for merging & sorting Tailwind classes.",
   "type": "module",
   "main": "./dist/tc.js",
   "types": "./dist/tc.d.ts",
