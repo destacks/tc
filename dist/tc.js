@@ -1,1 +1,0 @@
-import{clsx}from"clsx";import{twMerge}from"tailwind-merge";const tc=(...classValues)=>twMerge(clsx(...classValues));export default tc;
