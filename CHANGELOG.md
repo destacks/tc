@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.5.0] - 2023-11-08
 
-## Changed
+### Changed
 
 - Update dev dependencies to latest version (97cc935)
 - Make peer dependencies version agnostic (757b26f)
@@ -15,47 +15,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.4.1] - 2023-09-29
 
-## Fixed
+### Fixed
 
 - Fix CJS JS file extension in dist folder
 
 ## [0.4.0] - 2023-09-29
 
-## Added
+### Added
 
 - Add eslint ignore file and add dist folder to it
 
-## Changed
+### Changed
 
 - Mark cslx and tailwind-merge as peer dependencies
 - Add ESM and CJS JS files to package output
 
 ## [0.3.1] - 2023-09-29
 
-## Fixed
+### Fixed
 
 - Add missing settings.json in example project
 
 ## [0.3.0] - 2023-09-29
 
-## Changed
+### Changed
 
 - Remove dist folder from repo
 - Ignore package lock in button example
 
-## Fixed
+### Fixed
 
 - Fix typo in button example
 
 ## [0.2.0] - 2023-09-29
 
-## Changed
+### Changed
 
 - Switch from `twcn` to `tc` as project name
 
 ## [0.1.1] - 2023-09-25
 
-## Fixed
+### Fixed
 
 - Add `dist` folder on publish
 
