@@ -44,8 +44,8 @@
   },
   "homepage": "https://github.com/destacks/tc#readme",
   "peerDependencies": {
-    "clsx": "^2.0.0",
-    "tailwind-merge": "^1.14.0"
+    "clsx": "*",
+    "tailwind-merge": "*"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
